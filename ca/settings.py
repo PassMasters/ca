@@ -26,7 +26,7 @@ SECRET_KEY = "django-insecure-wkf+rl5$p)%$hfvqjm5u1^1aql_566z0k!$zflxnbiq)jbivpi
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
-
+CSRF_TRUSTED_ORIGINS = ['https://secureca.adaptable.app']
 
 # Application definition
 
